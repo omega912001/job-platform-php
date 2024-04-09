@@ -1,0 +1,46 @@
+.logo{
+	margin-top: 30px;
+	padding-left: 50px;
+}
+.sign_in{
+	padding-left: 660px;
+}
+#post{
+	padding-left: 30px;
+}
+.gnav{
+	border-bottom: 1px solid grey;
+}
+.input-group.md-form.form-sm.form-1 input{
+  border: 1px solid #bdbdbd;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+.btns{
+	color: white;
+	background-color: #2557a7; ;
+}
+.btns:hover{
+	background-color: #164081;;
+	transition: 0.5s;
+}
+.post{
+	font-size: 20px;
+	font-weight: 400;
+    cursor: pointer;
+    color: #2557a7;
+
+}
+.resume{
+	text-align: center;
+	text-decoration: none;
+}
+.new_jobs {
+	border-bottom: 1px solid grey;
+}
+.money {
+	border: none;
+}
+.card{
+	padding-right: 100px;
+}
