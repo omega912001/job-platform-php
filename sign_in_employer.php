@@ -19,6 +19,9 @@ include("./static/header.php");
 						<input type="password" class="form-control" id="password" name="password" placeholder="Enter your password">
 
 						<button type="submit" id="submit" class="btn btn-primary mt-3">Submit</button>
+
+
+						<p class="shortpara fw-bold">If you are a new employer please <a href="post_your_job.php">Register</a></p>
 					</form>
 				</div>
 			</div>

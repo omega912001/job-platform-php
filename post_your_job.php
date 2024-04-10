@@ -51,7 +51,7 @@ include("./static/header.php");
 							<label for="phone" class="form-label fw-bold">Phone Number</label>
 							<input type="text" class="form-control" id="phone" name="phone" placeholder="Enter your phone number">
 						</div>
-
+						
 
 						<button type="submit" id="submit" class="btn btn-primary">Submit</button>
 					</form>

@@ -1,5 +1,18 @@
 <?php
 include("./static/header.php");
+
+// print_r($_SESSION);
+
+// // Check if the user is logged in
+// if (!isset($_SESSION['id'])) {
+//     // If not logged in, display an alert and redirect to sign_in.php
+// 	echo "<script>alert('Please sign in first to post a job.')</script>";
+// 	echo "<script>window.location.href = 'sign_in_employer.php';</script>";
+// 	exit; 
+// }
+
+
+
 ?>
 
 
@@ -23,4 +36,9 @@ include("./static/header.php");
 	<a href="post_your_job.php"> <button type="submit" id="submit" id="post_jobs" class="btn btn-primary"> Post your job here        
 	</button> </a> 
 </div>
+
+
+<?php
+include("./static/footer.php");
+?>
 

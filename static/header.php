@@ -48,24 +48,27 @@ session_start();
         
       </ul>
       <div class="d-flex"> 
-      <?php  if (isset($_SESSION['id'])) {
+        <?php  if (isset($_SESSION['id'])) {
           echo '<a href="logout.php" class="btn btn-primary">Logout</a>';
         }
         else{
 
 
-        echo   '<a class="btn text-light"  href="sign_in.php?direct_sign_in=true" type="submit" role="button">Sign in </a>
+          echo   '<a class="btn text-light"  href="sign_in.php?direct_sign_in=true" type="submit" role="button">Sign in </a>
           <div class="vr text-light"></div>';
         }
-      ?>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index_employer.php">Employers / Post job</a>
-        </li>
-      </ul>
+        ?>
 
-    </div>
-  </div>
-</div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+         <a class="nav-link active" aria-current="page" href="index_employer.php">Employers / Post job</a>
+         </li>
+         </ul>
+       
+       
+
+     </div>
+   </div>
+ </div>
 </nav>
 
